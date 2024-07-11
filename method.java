@@ -8,7 +8,7 @@ public class method {
     }   
 }
 
-//Method 1- not return - no arguments
+//Method - not return - no arguments
 // class squredemo{
 //     void findsq(){
 //         int a = 20;
@@ -17,7 +17,7 @@ public class method {
 //     }
 // }
 
-//Method 2- not return - with arguments
+//Method - not return - with arguments
 // class squredemo{
 //     void findsq(int a){
 //         a = a * a;
@@ -25,16 +25,16 @@ public class method {
 //     }
 // }
 
-//Method 3-  return - no arguments
-// class squredemo{
-//     int findsq(){
-//         int a = 23;
-//         a = a * a;
-//         return a;
-//     }
-// }
+//Method -  return - with arguments
+class squredemo{
+    int findsq(){
+        int a = 23;
+        a = a * a;
+        return a;
+    }
+}
 
-//Method 4-  return - with arguments
+//Method -  return - with arguments
 class squredemo{
     int findsq(int a){
         a = a * a;
